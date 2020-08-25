@@ -226,7 +226,7 @@ class APITestCase(unittest.TestCase):
         url = response.headers.get('Location')
         self.assertIsNotNone(url)
         self.assertEqual(json_response['body'],
-                        'Good [post](http://example.com)!')
+                         'Good [post](http://example.com)!')
         self.assertEqual(
             re.sub('<.*?>', '', json_response['body_html']), 'Good post!')
 
