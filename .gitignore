@@ -43,3 +43,6 @@ venv
 
 # Virtual environment variables
 .bash_profile
+
+# Variables for heroku
+.env
