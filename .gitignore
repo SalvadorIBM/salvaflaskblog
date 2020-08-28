@@ -44,5 +44,6 @@ venv
 # Virtual environment variables
 .bash_profile
 
-# Variables for heroku
+# Enviroment Variables
 .env
+.env-mysql
